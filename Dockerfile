@@ -21,4 +21,5 @@ RUN npm install
 VOLUME /var/expressCart/data
 
 EXPOSE 1111
+EXPOSE 27017
 ENTRYPOINT ["npm", "start"]
